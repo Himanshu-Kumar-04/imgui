@@ -54,20 +54,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\..\..\bin\Debug-windows-x86_64\ImGui\</OutDir>
-    <IntDir>..\..\..\bin-int\Debug-windows-x86_64\ImGui\</IntDir>
+    <OutDir>..\..\bin\Debug-windows-x86_64\ImGui\</OutDir>
+    <IntDir>..\..\bin-int\Debug-windows-x86_64\ImGui\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>..\..\..\bin\Release-windows-x86_64\ImGui\</OutDir>
-    <IntDir>..\..\..\bin-int\Release-windows-x86_64\ImGui\</IntDir>
+    <OutDir>..\..\bin\Release-windows-x86_64\ImGui\</OutDir>
+    <IntDir>..\..\bin-int\Release-windows-x86_64\ImGui\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
-    <OutDir>..\..\..\bin\Dist-windows-x86_64\ImGui\</OutDir>
-    <IntDir>..\..\..\bin-int\Dist-windows-x86_64\ImGui\</IntDir>
+    <OutDir>..\..\bin\Dist-windows-x86_64\ImGui\</OutDir>
+    <IntDir>..\..\bin-int\Dist-windows-x86_64\ImGui\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
@@ -78,9 +78,7 @@
       <PreprocessorDefinitions>ARM_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <ExternalWarningLevel>Level3</ExternalWarningLevel>
     </ClCompile>
@@ -100,7 +98,6 @@
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <ExternalWarningLevel>Level3</ExternalWarningLevel>
     </ClCompile>
@@ -121,7 +118,6 @@
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <ExternalWarningLevel>Level3</ExternalWarningLevel>
     </ClCompile>
